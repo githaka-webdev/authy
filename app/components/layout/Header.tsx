@@ -1,3 +1,5 @@
+import { HeaderStyles } from '@/styles';
+
 export default function Header() {
-    return <header></header>;
+    return <header className={HeaderStyles.header}></header>;
 }
