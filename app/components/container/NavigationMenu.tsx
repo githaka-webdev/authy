@@ -1,8 +1,8 @@
-export default function NavigationMenu() {
+export default function NavigationMenu({ children }: NavigationMenuProps) {
     return (
         <main>
             <section></section>
-            <section></section>
+            <section>{children}</section>
         </main>
     );
 }

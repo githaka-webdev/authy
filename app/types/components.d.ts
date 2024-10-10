@@ -19,6 +19,9 @@ declare global {
         link: string;
         name: string;
     }
+    interface NavigationMenuProps {
+        children: ReactNode;
+    }
 }
 
 export {};
