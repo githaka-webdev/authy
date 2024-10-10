@@ -9,6 +9,7 @@ export default function Brand() {
                 width={35}
                 height={35}
             />
+            <p>Authy</p>
         </div>
     );
 }
