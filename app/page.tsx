@@ -1,5 +1,6 @@
 import {
     Brand,
+    Button,
     Container,
     Footer,
     Header,
@@ -29,6 +30,10 @@ export default function Landing() {
                     />
                     <NavigationItem
                         name='Pricing'
+                        link='/'
+                    />
+                    <Button
+                        name='Account'
                         link='/'
                     />
                 </Navigation>
