@@ -5,6 +5,7 @@ import {
     Header,
     Main,
     Navigation,
+    NavigationItem,
 } from '@/components';
 import type { Metadata } from 'next';
 
@@ -18,7 +19,18 @@ export default function Landing() {
             <Header>
                 <Brand />
                 <Navigation>
-                    <></>
+                    <NavigationItem
+                        name='Landing'
+                        link='/'
+                    />
+                    <NavigationItem
+                        name='Work'
+                        link='/'
+                    />
+                    <NavigationItem
+                        name='Pricing'
+                        link='/'
+                    />
                 </Navigation>
             </Header>
             <Container>
