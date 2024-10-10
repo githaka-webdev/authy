@@ -5,3 +5,8 @@
     justify-self: flex-start;
     gap: 10px;
 }
+
+.brand p {
+    font-weight: 700;
+    font-size: 24px;
+}
