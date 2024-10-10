@@ -7,3 +7,4 @@ export { default as NavigationStyles } from '../container/Navigation.module.css'
 export { default as NavigationItemStyles } from '../container/NavigationItem.module.css';
 export { default as ButtonStyles } from '../container/Button.module.css';
 export { default as NavigationMenuStyles } from '../container/NavigationMenu.module.css';
+export { default as HeroStyles } from '../page/Hero.module.css';
