@@ -3,10 +3,10 @@
     height: calc(100% - 75px);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1920px) {
     .container {
-        width: calc(100% - calc(100% - 1440px) - calc(100% - 1440px));
-        padding-left: calc(100% - 1440px);
-        padding-right: calc(100% - 1440px);
+        width: calc(100% - calc(100% - 1920px) - calc(100% - 1920px) - 256px);
+        padding-left: calc(100% - 1920px + 128px);
+        padding-right: calc(100% - 1920px + 128px);
     }
 }
