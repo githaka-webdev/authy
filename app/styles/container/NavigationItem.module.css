@@ -7,7 +7,7 @@
 }
 
 .navigation_item:hover {
-    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.025);
 }
 
 .navigation_item_active {
@@ -15,6 +15,10 @@
     color: black;
     padding: 12px;
     border-radius: 14px;
-    border: 2px solid black;
     font-weight: 600;
+    border: 1px solid transparent;
+}
+
+.navigation_item_active:hover {
+    background-color: rgba(0, 0, 0, 0.025);
 }
