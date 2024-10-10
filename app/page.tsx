@@ -40,7 +40,9 @@ export default function Landing() {
                 </Navigation>
             </Header>
             <Container>
-                <Main />
+                <Main>
+                    <></>
+                </Main>
                 <Footer />
             </Container>
         </div>

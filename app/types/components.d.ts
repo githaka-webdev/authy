@@ -22,6 +22,9 @@ declare global {
     interface NavigationMenuProps {
         children: ReactNode;
     }
+    interface MainProps {
+        children: ReactNode;
+    }
 }
 
 export {};
