@@ -14,6 +14,10 @@ declare global {
         link: string;
         name: string;
     }
+    interface ButtonProps {
+        link: string;
+        name: string;
+    }
 }
 
 export {};
