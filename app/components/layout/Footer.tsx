@@ -1,4 +1,4 @@
-import { Brand, NavigationItem } from '@/components';
+import { Brand, Button, NavigationItem } from '@/components';
 import { FooterStyles } from '@/styles';
 
 export default function Footer() {
@@ -7,6 +7,14 @@ export default function Footer() {
             <div className={FooterStyles.footer_navigation}>
                 <div className={FooterStyles.footer_brand}>
                     <Brand />
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Architecto praesentium maxime quo, neque.
+                    </p>
+                    <Button
+                        name='Join Us'
+                        link=''
+                    />
                 </div>
                 <div className={FooterStyles.footer_links}>
                     <h1>Resources</h1>
