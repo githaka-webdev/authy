@@ -1,4 +1,4 @@
-import { Container, Header, Main } from '@/components';
+import { Container, Footer, Header, Main } from '@/components';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -11,6 +11,7 @@ export default function Landing() {
             <Header />
             <Container>
                 <Main />
+                <Footer />
             </Container>
         </div>
     );
