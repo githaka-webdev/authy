@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { HeroStyles } from '@/styles';
+import { Button } from '@/components';
 
 export default function Hero() {
     return (
@@ -21,6 +22,10 @@ export default function Hero() {
                     laudantium libero. Exercitationem recusandae asperiores
                     dolorem incidunt quidem!
                 </p>
+                <Button
+                    link=''
+                    name='GitHub'
+                />
             </div>
         </section>
     );

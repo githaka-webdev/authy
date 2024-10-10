@@ -26,11 +26,11 @@ export default function Footer() {
                 <div className={FooterStyles.footer_links}>
                     <h1>More</h1>
                     <NavigationItem
-                        link=''
+                        link='/io'
                         name='Cookies'
                     />
                     <NavigationItem
-                        link=''
+                        link='#hero'
                         name='Privacy'
                     />
                 </div>
