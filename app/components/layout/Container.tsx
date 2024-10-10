@@ -1,3 +1,5 @@
+import { ContainerStyles } from '@/styles';
+
 export default function Container({ children }: ContainerProps) {
-    return <div>{children}</div>;
+    return <div className={ContainerStyles.container}>{children}</div>;
 }
