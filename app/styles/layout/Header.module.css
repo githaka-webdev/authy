@@ -8,3 +8,11 @@
     align-items: center;
     justify-content: flex-start;
 }
+
+@media (min-width: 1440px) {
+    .header {
+        width: calc(100% - calc(100% - 1440px) - calc(100% - 1440px));
+        padding-left: calc(100% - 1440px);
+        padding-right: calc(100% - 1440px);
+    }
+}

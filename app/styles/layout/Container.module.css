@@ -2,3 +2,11 @@
     width: 100%;
     height: calc(100% - 75px);
 }
+
+@media (min-width: 1440px) {
+    .container {
+        width: calc(100% - calc(100% - 1440px) - calc(100% - 1440px));
+        padding-left: calc(100% - 1440px);
+        padding-right: calc(100% - 1440px);
+    }
+}
