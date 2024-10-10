@@ -19,6 +19,7 @@
         ],
         "paths": {
             "@/components": ["./app/components/utils/components.ts"],
+            "@/styles": ["./app/styles/utils/styles.ts"],
             "@/*": ["./*"]
         }
     },
