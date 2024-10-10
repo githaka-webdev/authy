@@ -27,11 +27,11 @@ export default function Landing() {
                         active
                     />
                     <NavigationItem
-                        name='Work'
+                        name='Docs'
                         link='/'
                     />
                     <NavigationItem
-                        name='Pricing'
+                        name='Changelog'
                         link='/'
                     />
                     <Button
