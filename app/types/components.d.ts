@@ -7,6 +7,9 @@ declare global {
     interface HeaderProps {
         children: ReactNode;
     }
+    interface NavigationProps {
+        children: ReactNode;
+    }
 }
 
 export {};
