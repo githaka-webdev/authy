@@ -13,6 +13,7 @@ declare global {
     interface NavigationItemProps {
         link: string;
         name: string;
+        status?: boolean;
     }
     interface ButtonProps {
         link: string;

@@ -1,10 +1,14 @@
 import Link from 'next/link';
 import { NavigationItemStyles } from '@/styles';
 
-export default function NavigationItem({ link, name }: NavigationItemProps) {
+export default function NavigationItem({
+    link,
+    name,
+    status,
+}: NavigationItemProps) {
     return (
         <Link
-            className={NavigationItemStyles.navigation_item}
+            className={status ? '' : NavigationItemStyles.navigation_item}
             href={link}
         >
             {name}
