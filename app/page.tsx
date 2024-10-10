@@ -1,4 +1,4 @@
-import { Container, Footer, Header, Main } from '@/components';
+import { Brand, Container, Footer, Header, Main } from '@/components';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -8,7 +8,9 @@ export const metadata: Metadata = {
 export default function Landing() {
     return (
         <div className='landing'>
-            <Header />
+            <Header>
+                <Brand />
+            </Header>
             <Container>
                 <Main />
                 <Footer />
