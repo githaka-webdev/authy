@@ -5,3 +5,4 @@ export { default as ContainerStyles } from '../layout/Container.module.css';
 export { default as BrandStyles } from '../ui/Brand.module.css';
 export { default as NavigationStyles } from '../container/Navigation.module.css';
 export { default as NavigationItemStyles } from '../container/NavigationItem.module.css';
+export { default as ButtonStyles } from '../container/Button.module.css';
