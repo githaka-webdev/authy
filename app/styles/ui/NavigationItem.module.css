@@ -1,0 +1,8 @@
+.navigation_item {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation_item:hover {
+    font-weight: 600;
+}
