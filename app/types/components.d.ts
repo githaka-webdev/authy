@@ -10,6 +10,10 @@ declare global {
     interface NavigationProps {
         children: ReactNode;
     }
+    interface NavigationItemProps {
+        link: string;
+        name: string;
+    }
 }
 
 export {};
