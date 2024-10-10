@@ -23,6 +23,7 @@ export default function Landing() {
                     <NavigationItem
                         name='Landing'
                         link='/'
+                        active
                     />
                     <NavigationItem
                         name='Work'
