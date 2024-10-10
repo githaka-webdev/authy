@@ -4,6 +4,7 @@ import {
     Container,
     Footer,
     Header,
+    Hero,
     Main,
     Navigation,
     NavigationItem,
@@ -41,7 +42,7 @@ export default function Landing() {
             </Header>
             <Container>
                 <Main>
-                    <></>
+                    <Hero />
                 </Main>
                 <Footer />
             </Container>
