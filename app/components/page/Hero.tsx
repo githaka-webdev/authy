@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import { HeroStyles } from '@/styles';
 
 export default function Hero() {
     return (
-        <section>
-            <div>
+        <section id={HeroStyles.hero}>
+            <div className={HeroStyles.hero_media}>
                 <Image
                     src={'/images/landing/hero.jpg'}
                     alt='Hero Image'
@@ -11,7 +12,7 @@ export default function Hero() {
                     height={600}
                 />
             </div>
-            <div>
+            <div className={HeroStyles.hero_text}>
                 <h1>Lorem ipsum dolor </h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
