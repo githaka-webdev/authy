@@ -4,6 +4,9 @@ declare global {
     interface ContainerProps {
         children: ReactNode;
     }
+    interface HeaderProps {
+        children: ReactNode;
+    }
 }
 
 export {};
