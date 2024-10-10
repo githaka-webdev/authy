@@ -8,7 +8,11 @@ export default function NavigationItem({
 }: NavigationItemProps) {
     return (
         <Link
-            className={active ? '' : NavigationItemStyles.navigation_item}
+            className={
+                active
+                    ? NavigationItemStyles.navigation_item_active
+                    : NavigationItemStyles.navigation_item
+            }
             href={link}
         >
             {name}

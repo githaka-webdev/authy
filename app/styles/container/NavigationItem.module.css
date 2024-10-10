@@ -1,8 +1,20 @@
 .navigation_item {
     text-decoration: none;
     color: black;
+    padding: 12px;
+    border-radius: 14px;
+    border: 1px solid transparent;
 }
 
 .navigation_item:hover {
+    border: 1px solid black;
+}
+
+.navigation_item_active {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border-radius: 14px;
+    border: 2px solid black;
     font-weight: 600;
 }
