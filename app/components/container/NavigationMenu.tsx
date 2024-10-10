@@ -10,7 +10,10 @@ export default function NavigationMenu({ children }: NavigationMenuProps) {
     }
     return (
         <main className={NavigationMenuStyles.navigation_menu}>
-            <section onClick={toggleMenu}>
+            <section
+                className={NavigationMenuStyles.navigation_menu_head}
+                onClick={toggleMenu}
+            >
                 {menu ? (
                     <Image
                         src={'./icons/close.svg'}
@@ -27,7 +30,13 @@ export default function NavigationMenu({ children }: NavigationMenuProps) {
                     />
                 )}
             </section>
-            {menu ? <section>{children}</section> : <></>}
+            {menu ? (
+                <section className={NavigationMenuStyles.navigation_menu_body}>
+                    {children}
+                </section>
+            ) : (
+                <></>
+            )}
         </main>
     );
 }
