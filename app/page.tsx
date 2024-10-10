@@ -1,4 +1,11 @@
-import { Brand, Container, Footer, Header, Main } from '@/components';
+import {
+    Brand,
+    Container,
+    Footer,
+    Header,
+    Main,
+    Navigation,
+} from '@/components';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -10,6 +17,9 @@ export default function Landing() {
         <div className='landing'>
             <Header>
                 <Brand />
+                <Navigation>
+                    <></>
+                </Navigation>
             </Header>
             <Container>
                 <Main />
