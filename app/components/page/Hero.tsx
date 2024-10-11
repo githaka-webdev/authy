@@ -14,13 +14,11 @@ export default function Hero() {
                 />
             </div>
             <div className={HeroStyles.hero_text}>
-                <h1>Lorem ipsum dolor </h1>
+                <h1>Authy</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nam, eos corporis incidunt nemo blanditiis, a quia
-                    dignissimos minus hic possimus aliquam praesentium
-                    laudantium libero. Exercitationem recusandae asperiores
-                    dolorem incidunt quidem!
+                    A Next.js project exploring its capabilities as well as
+                    structure. It is intended to be a reference and beginer
+                    friendly.
                 </p>
                 <Button
                     link=''
