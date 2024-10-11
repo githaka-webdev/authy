@@ -18,6 +18,7 @@
 .hero_media img {
     width: 100%;
     height: auto;
+    border-radius: 32px;
 }
 
 .hero_text {
