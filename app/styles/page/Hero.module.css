@@ -19,6 +19,7 @@
     width: 100%;
     height: auto;
     border-radius: 32px;
+    object-fit: cover;
 }
 
 .hero_text {
@@ -42,6 +43,7 @@
     .hero_media img {
         height: 100%;
         width: 100%;
+        object-fit: cover;
     }
     .hero_text {
         grid-area: 61/1/101/101;
