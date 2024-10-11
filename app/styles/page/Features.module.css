@@ -17,7 +17,8 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 32px;
+    gap: 64px;
+    height: 100%;
 }
 
 .features_nav {
@@ -25,9 +26,9 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 32px;
     background-color: rgba(0, 0, 0, 0.025);
-    height: 100%;
+    max-height: 100%;
+    gap: 32px;
     padding: 32px;
     border-radius: 32px;
 }
@@ -58,7 +59,22 @@
     justify-content: flex-start;
     gap: 32px;
 }
+.features_content {
+    padding: 32px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
+.features_content div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
 @media (max-width: 768px) {
     .features_container {
         display: flex;
@@ -73,6 +89,11 @@
         align-items: flex-start;
         justify-content: flex-start;
         min-width: 200px;
-        gap: 32px;
+        gap: 16px;
+        padding: 0px;
+        background-color: transparent;
+    }
+    .features_content {
+        padding: 0px;
     }
 }

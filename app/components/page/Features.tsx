@@ -29,6 +29,16 @@ export default function Features() {
                     >
                         Authorization
                     </p>
+                    <p
+                        className={
+                            selectedFeature === 'Security'
+                                ? FeaturesStyles.p_active
+                                : ''
+                        }
+                        onClick={() => setSelectedFeature('Security')}
+                    >
+                        Security
+                    </p>
                 </div>
                 <div className={FeaturesStyles.features_content}>
                     {selectedFeature === 'Authentication' && (
@@ -45,6 +55,17 @@ export default function Features() {
                     {selectedFeature === 'Authorization' && (
                         <div>
                             <h2>Authorization</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. A, vero. Reiciendis repellat
+                                maxime amet, labore nihil exercitationem dolores
+                                cupiditate impedit laudantium. Authorization.
+                            </p>
+                        </div>
+                    )}
+                    {selectedFeature === 'Security' && (
+                        <div>
+                            <h2>Security</h2>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipisicing elit. A, vero. Reiciendis repellat
