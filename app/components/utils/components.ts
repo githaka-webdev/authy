@@ -5,6 +5,7 @@ export { default as Authentication } from '../layout/Authentication';
 export { default as Container } from '../layout/Container';
 export { default as Brand } from '../ui/Brand';
 export { default as Navigation } from '../container/Navigation';
+export { default as Form } from '../container/Form';
 export { default as NavigationItem } from '../container/NavigationItem';
 export { default as Button } from '../container/Button';
 export { default as NavigationMenu } from '../container/NavigationMenu';
