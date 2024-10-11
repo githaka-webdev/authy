@@ -2,6 +2,7 @@ import {
     Brand,
     Button,
     Container,
+    Features,
     Footer,
     Header,
     Hero,
@@ -43,6 +44,7 @@ export default function Landing() {
             <Container>
                 <Main>
                     <Hero />
+                    <Features />
                 </Main>
                 <Footer />
             </Container>
