@@ -48,7 +48,9 @@ export default function Login() {
             </Header>
             <Container>
                 <Main>
-                    <Authentication />
+                    <Authentication>
+                        <></>
+                    </Authentication>
                 </Main>
                 <Footer />
             </Container>
