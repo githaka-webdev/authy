@@ -8,3 +8,4 @@ export { default as NavigationItemStyles } from '../container/NavigationItem.mod
 export { default as ButtonStyles } from '../container/Button.module.css';
 export { default as NavigationMenuStyles } from '../container/NavigationMenu.module.css';
 export { default as HeroStyles } from '../page/Hero.module.css';
+export { default as FeaturesStyles } from '../page/Features.module.css';
