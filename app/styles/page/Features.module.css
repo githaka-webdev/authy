@@ -88,12 +88,14 @@
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-start;
+        flex-wrap: wrap;
         min-width: 200px;
         gap: 16px;
         padding: 0px;
-        background-color: transparent;
+        background-color: rgba(0, 0, 0, 0.025);
+        padding: 16px;
     }
     .features_content {
-        padding: 0px;
+        padding: 16px;
     }
 }
