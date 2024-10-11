@@ -1,5 +1,7 @@
 import { AuthenticationStyles } from '@/styles';
 
-export default function Authentication() {
-    return <section id={AuthenticationStyles.authentication}></section>;
+export default function Authentication({ children }: AuthenticationProps) {
+    return (
+        <section id={AuthenticationStyles.authentication}>{children}</section>
+    );
 }
