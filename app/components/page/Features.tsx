@@ -45,20 +45,15 @@ export default function Features() {
                         <div>
                             <h2>Authentication</h2>
                             <p>
-                                A straightforward yet secure server
-                                authentication system using just email and
-                                password! Our approach focuses on simplicity and
-                                reliability, ensuring users can easily log in to
-                                their accounts while their data remains
-                                protected. Dive into the code to understand how
-                                we handle user registration, login, and session
-                                management without the complexities of
-                                token-based systems. Whether you're a beginner
-                                looking to grasp the fundamentals or an
-                                experienced developer seeking efficient
-                                practices, our repository offers clear insights
-                                into our email/password authentication
-                                implementation.
+                                A secure server authentication system using
+                                email and password! Our focus on simplicity
+                                ensures users can easily log in while keeping
+                                their data protected. Check out the code to see
+                                how we handle user registration, login, and
+                                session management without token complexities.
+                                Whether you’re a beginner or an experienced
+                                developer, our repository offers valuable
+                                insights!
                             </p>
                         </div>
                     )}
@@ -66,10 +61,14 @@ export default function Features() {
                         <div>
                             <h2>Authorization</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. A, vero. Reiciendis repellat
-                                maxime amet, labore nihil exercitationem dolores
-                                cupiditate impedit laudantium. Authorization.
+                                See how we implement authorization! After
+                                logging in with their email and password, users
+                                experience role-based access control, ensuring
+                                they only access permitted features and data.
+                                Dive into the code for practical insights on
+                                managing permissions and protecting sensitive
+                                information. We'd love for you to explore it and
+                                share your feedback!
                             </p>
                         </div>
                     )}
@@ -77,10 +76,14 @@ export default function Features() {
                         <div>
                             <h2>Security</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. A, vero. Reiciendis repellat
-                                maxime amet, labore nihil exercitationem dolores
-                                cupiditate impedit laudantium. Authorization.
+                                Security is a top priority. We implement best
+                                practices to protect user data, including
+                                password hashing and secure session management.
+                                Our focus on robust security measures ensures
+                                that user information remains safe from
+                                unauthorized access. Explore the repository to
+                                see how we safeguard our application and enhance
+                                user trust!
                             </p>
                         </div>
                     )}
