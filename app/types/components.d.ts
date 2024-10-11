@@ -25,6 +25,9 @@ declare global {
     interface MainProps {
         children: ReactNode;
     }
+    interface AuthenticationProps {
+        children: ReactNode;
+    }
 }
 
 export {};
