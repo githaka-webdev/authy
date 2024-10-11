@@ -1,3 +1,5 @@
+import { AuthenticationStyles } from '@/styles';
+
 export default function Authentication() {
-    return <section></section>;
+    return <section id={AuthenticationStyles.authentication}></section>;
 }
