@@ -9,10 +9,24 @@ export default function Features() {
             <h1>Features</h1>
             <div className={FeaturesStyles.features_container}>
                 <div className={FeaturesStyles.features_nav}>
-                    <p onClick={() => setSelectedFeature('Authentication')}>
+                    <p
+                        className={
+                            selectedFeature === 'Authentication'
+                                ? FeaturesStyles.p_active
+                                : ''
+                        }
+                        onClick={() => setSelectedFeature('Authentication')}
+                    >
                         Authentication
                     </p>
-                    <p onClick={() => setSelectedFeature('Authorization')}>
+                    <p
+                        className={
+                            selectedFeature === 'Authorization'
+                                ? FeaturesStyles.p_active
+                                : ''
+                        }
+                        onClick={() => setSelectedFeature('Authorization')}
+                    >
                         Authorization
                     </p>
                 </div>
