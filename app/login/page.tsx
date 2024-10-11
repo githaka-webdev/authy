@@ -4,6 +4,6 @@ export const metadata: Metadata = {
     title: 'Authy - Login',
 };
 
-export default function Landing() {
-    return <></>;
+export default function Login() {
+    return <div className='login'></div>;
 }

@@ -37,7 +37,7 @@ export default function Landing() {
                     />
                     <Button
                         name='Account'
-                        link='/'
+                        link='/login'
                     />
                 </Navigation>
             </Header>

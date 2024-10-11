@@ -23,7 +23,8 @@ body {
     max-width: 2560px;
 }
 
-.landing {
+.landing,
+.login {
     width: 100%;
     display: flex;
     flex-direction: column;
