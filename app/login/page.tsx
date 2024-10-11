@@ -1,4 +1,5 @@
 import {
+    Authentication,
     Brand,
     Button,
     Container,
@@ -47,7 +48,7 @@ export default function Login() {
             </Header>
             <Container>
                 <Main>
-                    <></>
+                    <Authentication />
                 </Main>
                 <Footer />
             </Container>
