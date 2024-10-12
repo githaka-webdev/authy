@@ -37,6 +37,7 @@ declare global {
     }
     interface FormProps {
         children: ReactNode;
+        type: string;
     }
 }
 
