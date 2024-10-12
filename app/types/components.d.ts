@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { Children, ReactNode } from 'react';
 
 declare global {
     interface ContainerProps {
@@ -38,6 +38,9 @@ declare global {
     interface FormProps {
         children: ReactNode;
         type: string;
+    }
+    interface DashboardContainerProps {
+        children: ReactNode;
     }
 }
 
