@@ -2,6 +2,7 @@ export { default as HeaderStyles } from '../layout/Header.module.css';
 export { default as MainStyles } from '../layout/Main.module.css';
 export { default as FooterStyles } from '../layout/Footer.module.css';
 export { default as ContainerStyles } from '../layout/Container.module.css';
+export { default as AsideStyles } from '../layout/Aside.module.css';
 export { default as DashboardContainerStyles } from '../layout/DashboardContainer.module.css';
 export { default as AuthenticationStyles } from '../layout/Authentication.module.css';
 export { default as BrandStyles } from '../ui/Brand.module.css';
