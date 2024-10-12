@@ -1,4 +1,10 @@
-export default function Input({ label, id, type, placeholder }: InputProps) {
+export default function Input({
+    label,
+    id,
+    type,
+    placeholder,
+    value,
+}: InputProps) {
     return (
         <div>
             <div>
@@ -9,6 +15,7 @@ export default function Input({ label, id, type, placeholder }: InputProps) {
                     type={type}
                     id={id}
                     placeholder={placeholder}
+                    value={value}
                 />
             </div>
         </div>
