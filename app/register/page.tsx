@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function Register() {
     return (
-        <div className='login'>
+        <div className='register'>
             <Header>
                 <Brand />
                 <Navigation>
