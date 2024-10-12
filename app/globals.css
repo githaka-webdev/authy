@@ -25,7 +25,8 @@ body {
 
 .landing,
 .login,
-.register {
+.register,
+.reset {
     width: 100%;
     display: flex;
     flex-direction: column;
