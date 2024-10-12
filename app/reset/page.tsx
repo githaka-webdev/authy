@@ -16,12 +16,12 @@ import {
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Authy - Register',
+    title: 'Authy - Reset',
 };
 
-export default function Register() {
+export default function Reset() {
     return (
-        <div className='register'>
+        <div className='reset'>
             <Header>
                 <Brand />
                 <Navigation>
