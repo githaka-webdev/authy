@@ -9,13 +9,16 @@ export default function Dropdown({
 }: DropdownProps) {
     return (
         <Link href={link}>
-            <Image
-                src={icon}
-                alt={icon_name}
-                width={30}
-                height={30}
-            />
-            <p>{name}</p>
+            <div>
+                <Image
+                    src={icon}
+                    alt={icon_name}
+                    width={30}
+                    height={30}
+                />
+                <p>{name}</p>
+            </div>
+            <div></div>
         </Link>
     );
 }
