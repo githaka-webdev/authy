@@ -4,6 +4,7 @@ export { default as Footer } from '../layout/Footer';
 export { default as Authentication } from '../layout/Authentication';
 export { default as DashboardContainer } from '../layout/DashboardContainer';
 export { default as Container } from '../layout/Container';
+export { default as Aside } from '../layout/Aside';
 export { default as Brand } from '../ui/Brand';
 export { default as Navigation } from '../container/Navigation';
 export { default as Form } from '../container/Form';
