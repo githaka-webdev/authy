@@ -9,7 +9,7 @@
 
 .main_more {
     height: calc(100vh - 75px - 32px);
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     padding: 16px;
     width: calc(100% - 32px);
