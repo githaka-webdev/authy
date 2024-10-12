@@ -28,6 +28,12 @@ declare global {
     interface AuthenticationProps {
         children: ReactNode;
     }
+    interface InputProps {
+        label?: string;
+        id: string;
+        type: string;
+        placeholder: string;
+    }
 }
 
 export {};
