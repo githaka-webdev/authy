@@ -46,6 +46,8 @@ declare global {
     interface DropdownProps {
         link: string;
         name: string;
+        icon: string;
+        icon_name: string;
     }
 }
 
