@@ -14,3 +14,4 @@ export { default as Button } from '../container/Button';
 export { default as NavigationMenu } from '../container/NavigationMenu';
 export { default as Hero } from '../page/Hero';
 export { default as Features } from '../page/Features';
+export { default as Dropdown } from '../container/Dropdown';
