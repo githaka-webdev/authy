@@ -1,3 +1,5 @@
+import { InputStyles } from '@/styles';
+
 export default function Input({
     label,
     id,
@@ -6,11 +8,11 @@ export default function Input({
     value,
 }: InputProps) {
     return (
-        <div>
-            <div>
+        <div className={InputStyles.input}>
+            <div className={InputStyles.label}>
                 <label htmlFor={id}>{label}</label>
             </div>
-            <div>
+            <div className={InputStyles.entry}>
                 <input
                     type={type}
                     id={id}
