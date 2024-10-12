@@ -36,11 +36,11 @@ export default function Reset() {
                     <NavigationItem
                         name='Register'
                         link='/register'
-                        active
                     />
                     <NavigationItem
                         name='Reset'
                         link='/'
+                        active
                     />
                     <Button
                         name='Support'
@@ -51,42 +51,12 @@ export default function Reset() {
             <Container>
                 <Main>
                     <Authentication>
-                        <Form type='Register'>
-                            <Input
-                                label='First Name'
-                                id='first_name'
-                                type='text'
-                                placeholder='e.g John'
-                            />
-                            <Input
-                                label='Last Name'
-                                id='last_name'
-                                type='text'
-                                placeholder='e.g Doe'
-                            />
-                            <Input
-                                label='Year Of Birth'
-                                id='year_of_birth'
-                                type='number'
-                                placeholder='e.g 2000'
-                            />
+                        <Form type='Reset'>
                             <Input
                                 label='Email'
                                 id='email'
                                 type='email'
                                 placeholder='e.g john@gmail.com'
-                            />
-                            <Input
-                                label='Password'
-                                id='password'
-                                type='password'
-                                placeholder='e.g h7JKil8#dds'
-                            />
-                            <Input
-                                label='Confirm Password'
-                                id='confim_password'
-                                type='password'
-                                placeholder='e.g h7JKil8#dds'
                             />
                         </Form>
                     </Authentication>
