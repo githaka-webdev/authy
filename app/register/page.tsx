@@ -16,10 +16,10 @@ import {
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Authy - Login',
+    title: 'Authy - Register',
 };
 
-export default function Login() {
+export default function Register() {
     return (
         <div className='login'>
             <Header>
