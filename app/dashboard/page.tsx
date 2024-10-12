@@ -30,20 +30,24 @@ export default function Dashboard() {
                 <Brand />
                 <Navigation>
                     <NavigationItem
-                        name='Landing'
+                        name='Dashboard'
                         link='/'
                         active
                     />
                     <NavigationItem
-                        name='Docs'
+                        name='Notifications'
                         link='/'
                     />
                     <NavigationItem
-                        name='Changelog'
+                        name='Settings'
+                        link='/'
+                    />
+                    <NavigationItem
+                        name='Account'
                         link='/'
                     />
                     <Button
-                        name='Account'
+                        name='Logout'
                         link='/login'
                     />
                 </Navigation>
