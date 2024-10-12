@@ -34,6 +34,9 @@ declare global {
         type: string;
         placeholder: string;
     }
+    interface FormProps {
+        children: ReactNode;
+    }
 }
 
 export {};
