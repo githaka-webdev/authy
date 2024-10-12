@@ -6,6 +6,7 @@ export { default as AuthenticationStyles } from '../layout/Authentication.module
 export { default as BrandStyles } from '../ui/Brand.module.css';
 export { default as NavigationStyles } from '../container/Navigation.module.css';
 export { default as NavigationItemStyles } from '../container/NavigationItem.module.css';
+export { default as FormStyles } from '../container/Form.module.css';
 export { default as ButtonStyles } from '../container/Button.module.css';
 export { default as NavigationMenuStyles } from '../container/NavigationMenu.module.css';
 export { default as HeroStyles } from '../page/Hero.module.css';
