@@ -51,7 +51,7 @@ export default function Login() {
             <Container>
                 <Main>
                     <Authentication>
-                        <Form>
+                        <Form type='Login'>
                             <Input
                                 label='Email'
                                 id='email'
