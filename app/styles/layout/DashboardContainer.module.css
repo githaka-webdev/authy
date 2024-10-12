@@ -9,7 +9,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     height: calc(100vh - 75px);
-    gap: 16px;
+    gap: 0px;
 }
 @media (min-width: 1920px) {
     .dashboard_container {
