@@ -56,7 +56,7 @@ export default function NavigationMenu({ children }: NavigationMenuProps) {
                                 support!
                             </p>
                             <Button
-                                name='Rate Now'
+                                name='Rate Now ⭐'
                                 link=''
                             />
                         </div>
