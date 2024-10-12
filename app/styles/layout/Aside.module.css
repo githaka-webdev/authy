@@ -1,0 +1,5 @@
+.aside {
+    width: 300px;
+    height: calc(100vh - 75px);
+    background-color: black;
+}
