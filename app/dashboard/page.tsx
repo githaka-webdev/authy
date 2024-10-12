@@ -17,6 +17,8 @@ import {
     NavigationItem,
 } from '@/components';
 
+import { MainStyles } from '@/styles';
+
 export const metadata: Metadata = {
     title: 'Authy - Dashboard',
 };
@@ -48,7 +50,7 @@ export default function Dashboard() {
             </Header>
             <DashboardContainer>
                 <Aside />
-                <Main>
+                <Main style={MainStyles.main_more}>
                     <></>
                     <Footer />
                 </Main>
