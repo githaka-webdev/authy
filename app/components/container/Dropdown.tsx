@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { DropdownStyles } from '@/styles';
 
 export default function Dropdown({
     link,
@@ -8,7 +9,10 @@ export default function Dropdown({
     icon_name,
 }: DropdownProps) {
     return (
-        <Link href={link}>
+        <Link
+            href={link}
+            className={DropdownStyles.dropdown}
+        >
             <Image
                 src={icon}
                 alt={icon_name}
