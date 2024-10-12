@@ -14,3 +14,4 @@ export { default as InputStyles } from '../container/Input.module.css';
 export { default as NavigationMenuStyles } from '../container/NavigationMenu.module.css';
 export { default as HeroStyles } from '../page/Hero.module.css';
 export { default as FeaturesStyles } from '../page/Features.module.css';
+export { default as DropdownStyles } from '../container/Dropdown.module.css';
