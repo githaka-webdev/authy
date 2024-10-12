@@ -1,0 +1,18 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+}
+
+.label label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.entry input {
+    padding: 16px;
+    border-radius: 14px;
+    border: 1px solid black;
+}
