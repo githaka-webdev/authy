@@ -49,6 +49,9 @@ declare global {
         icon: string;
         icon_name: string;
     }
+    interface AsideProps {
+        children: ReactNode;
+    }
 }
 
 export {};
