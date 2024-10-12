@@ -1,3 +1,5 @@
-export default function DashboardContainer() {
-    return <div></div>;
+export default function DashboardContainer({
+    children,
+}: DashboardContainerProps) {
+    return <div>{children}</div>;
 }
