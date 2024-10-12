@@ -7,7 +7,6 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 32px;
-    margin-top: 64px;
 }
 @media (min-width: 1920px) {
     .dashboard_container {
