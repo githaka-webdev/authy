@@ -6,6 +6,7 @@ import {
     Button,
     Container,
     DashboardContainer,
+    Dropdown,
     Features,
     Footer,
     Form,
@@ -53,7 +54,14 @@ export default function Dashboard() {
                 </Navigation>
             </Header>
             <DashboardContainer>
-                <Aside />
+                <Aside>
+                    <Dropdown
+                        link=''
+                        name='Analytics'
+                        icon='/icons/analytics.svg'
+                        icon_name='Analytics Icon'
+                    />
+                </Aside>
                 <Main style={MainStyles.main_more}>
                     <></>
                     <Footer />
