@@ -5,8 +5,10 @@ import {
     Container,
     Features,
     Footer,
+    Form,
     Header,
     Hero,
+    Input,
     Main,
     Navigation,
     NavigationItem,
@@ -49,7 +51,20 @@ export default function Login() {
             <Container>
                 <Main>
                     <Authentication>
-                        <></>
+                        <Form>
+                            <Input
+                                label='Email'
+                                id='email'
+                                type='email'
+                                placeholder='e.g john@gmail.com'
+                            />
+                            <Input
+                                label='Password'
+                                id='password'
+                                type='password'
+                                placeholder='e.g h7JKil8#dds'
+                            />
+                        </Form>
                     </Authentication>
                 </Main>
                 <Footer />
