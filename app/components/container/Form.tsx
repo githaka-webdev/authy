@@ -14,7 +14,7 @@ export default function Form({ children, type }: FormProps) {
                 width={35}
                 height={35}
             />
-            {children}
+            <div>{children}</div>
             <Input
                 type='submit'
                 value={type}
