@@ -30,9 +30,10 @@ declare global {
     }
     interface InputProps {
         label?: string;
-        id: string;
+        id?: string;
         type: string;
-        placeholder: string;
+        placeholder?: string;
+        value?: string;
     }
     interface FormProps {
         children: ReactNode;
