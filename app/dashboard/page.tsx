@@ -4,6 +4,7 @@ import {
     Brand,
     Button,
     Container,
+    DashboardContainer,
     Features,
     Footer,
     Form,
@@ -44,13 +45,12 @@ export default function Dashboard() {
                     />
                 </Navigation>
             </Header>
-            <Container>
+            <DashboardContainer>
                 <Main>
-                    <Hero />
-                    <Features />
+                    <></>
+                    <Footer />
                 </Main>
-                <Footer />
-            </Container>
+            </DashboardContainer>
         </div>
     );
 }
