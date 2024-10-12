@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import {
+    Aside,
     Authentication,
     Brand,
     Button,
@@ -46,6 +47,7 @@ export default function Dashboard() {
                 </Navigation>
             </Header>
             <DashboardContainer>
+                <Aside />
                 <Main>
                     <></>
                     <Footer />
