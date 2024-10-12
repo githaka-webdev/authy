@@ -1,4 +1,18 @@
 import { InputStyles } from '@/styles';
+import localFont from 'next/font/local';
+
+const workSans = localFont({
+    src: [
+        {
+            path: '../../../public/fonts/work_sans/normal.ttf',
+            style: 'normal',
+        },
+        {
+            path: '../../../public/fonts/work_sans/italic.ttf',
+            style: 'italic',
+        },
+    ],
+});
 
 export default function Input({
     label,
@@ -14,6 +28,7 @@ export default function Input({
             </div>
             <div className={InputStyles.entry}>
                 <input
+                    className={workSans.className}
                     type={type}
                     id={id}
                     placeholder={placeholder}
