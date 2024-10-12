@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function Dashboard() {
     return (
-        <div id='dashboard'>
+        <div className='dashboard'>
             <Header>
                 <Brand />
                 <Navigation>
