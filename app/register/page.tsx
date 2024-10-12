@@ -32,11 +32,11 @@ export default function Register() {
                     <NavigationItem
                         name='Login'
                         link='/login'
-                        active
                     />
                     <NavigationItem
                         name='Register'
-                        link='/'
+                        link='/register'
+                        active
                     />
                     <NavigationItem
                         name='Reset'
@@ -44,14 +44,32 @@ export default function Register() {
                     />
                     <Button
                         name='Support'
-                        link='/login'
+                        link='/support'
                     />
                 </Navigation>
             </Header>
             <Container>
                 <Main>
                     <Authentication>
-                        <Form type='Login'>
+                        <Form type='Register'>
+                            <Input
+                                label='First Name'
+                                id='first_name'
+                                type='text'
+                                placeholder='e.g John'
+                            />
+                            <Input
+                                label='Last Name'
+                                id='last_name'
+                                type='text'
+                                placeholder='e.g Doe'
+                            />
+                            <Input
+                                label='Year Of Birth'
+                                id='year_of_birth'
+                                type='number'
+                                placeholder='e.g 2000'
+                            />
                             <Input
                                 label='Email'
                                 id='email'
@@ -61,6 +79,12 @@ export default function Register() {
                             <Input
                                 label='Password'
                                 id='password'
+                                type='password'
+                                placeholder='e.g h7JKil8#dds'
+                            />
+                            <Input
+                                label='Confirm Password'
+                                id='confim_password'
                                 type='password'
                                 placeholder='e.g h7JKil8#dds'
                             />
