@@ -17,21 +17,6 @@ export default function Footer() {
                     />
                 </div>
                 <div className={FooterStyles.footer_links}>
-                    <h1>Resources</h1>
-                    <NavigationItem
-                        link=''
-                        name='Docs'
-                    />
-                    <NavigationItem
-                        link=''
-                        name='Learn'
-                    />
-                    <NavigationItem
-                        link=''
-                        name='Downloads'
-                    />
-                </div>
-                <div className={FooterStyles.footer_links}>
                     <h1>More</h1>
                     <NavigationItem
                         link='/io'
