@@ -1,11 +1,15 @@
-export default function Input() {
+export default function Input({ label, id, type, placeholder }: InputProps) {
     return (
         <div>
             <div>
-                <label htmlFor=''></label>
+                <label htmlFor={id}>{label}</label>
             </div>
             <div>
-                <input type='text' />
+                <input
+                    type={type}
+                    id={id}
+                    placeholder={placeholder}
+                />
             </div>
         </div>
     );
