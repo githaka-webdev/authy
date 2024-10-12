@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Input } from '@/components';
 
-export default function Form({ children }: FormProps) {
+export default function Form({ children, type }: FormProps) {
     return (
         <form action=''>
             <Image
@@ -13,7 +13,7 @@ export default function Form({ children }: FormProps) {
             {children}
             <Input
                 type='submit'
-                value=''
+                value={type}
             />
         </form>
     );
