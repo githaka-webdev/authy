@@ -43,6 +43,10 @@ declare global {
     interface DashboardContainerProps {
         children: ReactNode;
     }
+    interface DropdownProps {
+        link: string;
+        name: string;
+    }
 }
 
 export {};
