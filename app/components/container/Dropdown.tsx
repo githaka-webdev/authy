@@ -19,29 +19,31 @@ export default function Dropdown({
                 className={DropdownStyles.dropdown_title}
                 onClick={toggleMenu}
             >
-                {menu ? (
+                <Image
+                    src={icon}
+                    alt={icon_name}
+                    width={25}
+                    height={25}
+                />
+                <p>{name}</p>
+
+                {!menu ? (
                     <Image
-                        src={icon}
-                        alt={icon_name}
-                        width={25}
-                        height={25}
+                        src={'/icons/arrow-up.svg'}
+                        alt={'Arrow Up Icon'}
+                        width={15}
+                        height={15}
+                        className={DropdownStyles.dropdown_title_arrow_down}
                     />
                 ) : (
                     <Image
-                        src={icon}
-                        alt={icon_name}
-                        width={25}
-                        height={25}
+                        src={'/icons/arrow-down.svg'}
+                        alt={'Arrow Down Icon'}
+                        width={15}
+                        height={15}
+                        className={DropdownStyles.dropdown_title_arrow_down}
                     />
                 )}
-                <p>{name}</p>
-                <Image
-                    src={'/icons/arrow-down.svg'}
-                    alt={'Arrow Down Icon'}
-                    width={15}
-                    height={15}
-                    className={DropdownStyles.dropdown_title_arrow_down}
-                />
             </div>
             {!menu ? (
                 <div className={DropdownStyles.dropdown_body}>
