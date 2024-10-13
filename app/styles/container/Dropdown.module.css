@@ -17,6 +17,11 @@
     border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+.dropdown_open {
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
 .dropdown_title {
     display: flex;
     flex-direction: row;
@@ -43,7 +48,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 @media (max-width: 768px) {
