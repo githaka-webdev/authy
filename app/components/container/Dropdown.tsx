@@ -22,6 +22,7 @@ export default function Dropdown({
                     alt={'Arrow Down Icon'}
                     width={15}
                     height={15}
+                    className={DropdownStyles.dropdown_title_arrow_down}
                 />
             </div>
             <div className={DropdownStyles.dropdown_body}>{children}</div>
