@@ -30,6 +30,10 @@
     justify-content: center;
 }
 
+.dropdown_body p {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .dropdown {
         padding: 8px;
@@ -60,6 +64,7 @@
         border: 1px solid rgba(0, 0, 0, 0.05);
     }
     .dropdown_body p {
+        display: block;
         font-weight: 700;
         color: white;
         background-color: black;
