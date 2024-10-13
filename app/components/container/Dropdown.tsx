@@ -7,19 +7,23 @@ export default function Dropdown({
     name,
     icon,
     icon_name,
+    children,
 }: DropdownProps) {
     return (
         <Link
             href={link}
             className={DropdownStyles.dropdown}
         >
-            <Image
-                src={icon}
-                alt={icon_name}
-                width={30}
-                height={30}
-            />
-            <p>{name}</p>
+            <div>
+                <Image
+                    src={icon}
+                    alt={icon_name}
+                    width={30}
+                    height={30}
+                />
+                <p>{name}</p>
+            </div>
+            <div>{children}</div>
         </Link>
     );
 }
