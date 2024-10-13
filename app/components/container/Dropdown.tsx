@@ -25,7 +25,10 @@ export default function Dropdown({
                     className={DropdownStyles.dropdown_title_arrow_down}
                 />
             </div>
-            <div className={DropdownStyles.dropdown_body}>{children}</div>
+            <div className={DropdownStyles.dropdown_body}>
+                <p>{name}</p>
+                {children}
+            </div>
         </div>
     );
 }
