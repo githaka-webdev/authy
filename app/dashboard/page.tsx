@@ -67,31 +67,26 @@ export default function Dashboard() {
                             active
                         />
                         <NavigationItem
-                            name='Users'
-                            link=''
-                        />
-                        <NavigationItem
-                            name='Token'
+                            name='Threats'
                             link=''
                         />
                     </Dropdown>
                     <Dropdown
                         link=''
-                        name='Analytics'
-                        icon='/icons/analytics.svg'
+                        name='Users'
+                        icon='/icons/users.svg'
                         icon_name='Analytics Icon'
                     >
                         <NavigationItem
-                            name='Users'
-                            link=''
-                            active
-                        />
-                        <NavigationItem
-                            name='Users'
+                            name='All Users'
                             link=''
                         />
                         <NavigationItem
-                            name='Token'
+                            name='Admins'
+                            link=''
+                        />
+                        <NavigationItem
+                            name='Staff'
                             link=''
                         />
                     </Dropdown>
