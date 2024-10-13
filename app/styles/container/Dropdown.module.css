@@ -9,10 +9,11 @@
     width: calc(100% - 32px);
     padding: 16px;
     border-radius: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .dropdown:hover {
-    background-color: rgba(0, 0, 0, 0.025);
+    cursor: pointer;
 }
 
 .dropdown_title {
