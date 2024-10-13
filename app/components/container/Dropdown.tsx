@@ -31,7 +31,16 @@ export default function Dropdown({
     }, []);
 
     return (
-        <div className={DropdownStyles.dropdown}>
+        <div
+            className={
+                !menu
+                    ? DropdownStyles.dropdown
+                    : [
+                          DropdownStyles.dropdown,
+                          DropdownStyles.dropdown_open,
+                      ].join(' ')
+            }
+        >
             <div
                 className={DropdownStyles.dropdown_title}
                 onClick={toggleMenu}
@@ -43,7 +52,7 @@ export default function Dropdown({
                     height={25}
                 />
                 <p>{name}</p>
-                {!menu ? (
+                {menu ? (
                     <Image
                         src={'/icons/arrow-up.svg'}
                         alt={'Arrow Up Icon'}
