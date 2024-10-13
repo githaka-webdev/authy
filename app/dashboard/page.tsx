@@ -60,7 +60,21 @@ export default function Dashboard() {
                         name='Analytics'
                         icon='/icons/analytics.svg'
                         icon_name='Analytics Icon'
-                    />
+                    >
+                        <NavigationItem
+                            name='Users'
+                            link=''
+                            active
+                        />
+                        <NavigationItem
+                            name='Users'
+                            link=''
+                        />
+                        <NavigationItem
+                            name='Token'
+                            link=''
+                        />
+                    </Dropdown>
                 </Aside>
                 <Main style={MainStyles.main_more}>
                     <></>
