@@ -1,19 +1,14 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import { DropdownStyles } from '@/styles';
 
 export default function Dropdown({
-    link,
     name,
     icon,
     icon_name,
     children,
 }: DropdownProps) {
     return (
-        <Link
-            href={link}
-            className={DropdownStyles.dropdown}
-        >
+        <div className={DropdownStyles.dropdown}>
             <div className={DropdownStyles.dropdown_title}>
                 <Image
                     src={icon}
@@ -30,6 +25,6 @@ export default function Dropdown({
                 />
             </div>
             <div className={DropdownStyles.dropdown_body}>{children}</div>
-        </Link>
+        </div>
     );
 }
