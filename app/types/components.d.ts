@@ -48,6 +48,7 @@ declare global {
         name: string;
         icon: string;
         icon_name: string;
+        children?: ReactNode;
     }
     interface AsideProps {
         children: ReactNode;
