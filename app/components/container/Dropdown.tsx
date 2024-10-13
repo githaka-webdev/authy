@@ -22,6 +22,12 @@ export default function Dropdown({
                     height={30}
                 />
                 <p>{name}</p>
+                <Image
+                    src={'/icons/arrow-down.svg'}
+                    alt={'Arrow Down Icon'}
+                    width={20}
+                    height={20}
+                />
             </div>
             <div>{children}</div>
         </Link>
