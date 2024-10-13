@@ -18,15 +18,15 @@ export default function Dropdown({
                 <Image
                     src={icon}
                     alt={icon_name}
-                    width={30}
-                    height={30}
+                    width={25}
+                    height={25}
                 />
                 <p>{name}</p>
                 <Image
                     src={'/icons/arrow-down.svg'}
                     alt={'Arrow Down Icon'}
-                    width={20}
-                    height={20}
+                    width={15}
+                    height={15}
                 />
             </div>
             <div className={DropdownStyles.dropdown_body}>{children}</div>
