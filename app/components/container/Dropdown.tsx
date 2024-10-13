@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { DropdownStyles } from '@/styles';
 
@@ -9,10 +9,27 @@ export default function Dropdown({
     icon_name,
     children,
 }: DropdownProps) {
-    const [menu, setMenu] = useState(true);
+    const [menu, setMenu] = useState(false);
+
     function toggleMenu() {
+        if (!menu) {
+            document.dispatchEvent(new CustomEvent('dropdownCloseAll'));
+        }
         setMenu(!menu);
     }
+
+    useEffect(() => {
+        function handleCloseAll() {
+            setMenu(false);
+        }
+
+        document.addEventListener('dropdownCloseAll', handleCloseAll);
+
+        return () => {
+            document.removeEventListener('dropdownCloseAll', handleCloseAll);
+        };
+    }, []);
+
     return (
         <div className={DropdownStyles.dropdown}>
             <div
@@ -26,7 +43,6 @@ export default function Dropdown({
                     height={25}
                 />
                 <p>{name}</p>
-
                 {!menu ? (
                     <Image
                         src={'/icons/arrow-up.svg'}
@@ -46,12 +62,12 @@ export default function Dropdown({
                 )}
             </div>
             {!menu ? (
+                <></>
+            ) : (
                 <div className={DropdownStyles.dropdown_body}>
                     <p>{name}</p>
                     {children}
                 </div>
-            ) : (
-                <></>
             )}
         </div>
     );
