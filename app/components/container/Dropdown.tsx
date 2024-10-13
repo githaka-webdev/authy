@@ -14,7 +14,7 @@ export default function Dropdown({
             href={link}
             className={DropdownStyles.dropdown}
         >
-            <div>
+            <div className={DropdownStyles.dropdown_title}>
                 <Image
                     src={icon}
                     alt={icon_name}
@@ -29,7 +29,7 @@ export default function Dropdown({
                     height={20}
                 />
             </div>
-            <div>{children}</div>
+            <div className={DropdownStyles.dropdown_body}>{children}</div>
         </Link>
     );
 }
