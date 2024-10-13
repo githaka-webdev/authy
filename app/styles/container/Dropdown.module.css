@@ -84,4 +84,7 @@
         padding: 12px;
         border-radius: 14px;
     }
+    .dropdown_body a {
+        width: 70%;
+    }
 }
