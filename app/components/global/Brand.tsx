@@ -5,8 +5,10 @@ interface BrandProps {
 }
 
 export default function Brand({ name }: BrandProps) {
-    <div>
-        <Logo />
-        <p>{name}</p>
-    </div>;
+    return (
+        <div>
+            <Logo />
+            <p>{name}</p>
+        </div>
+    );
 }
