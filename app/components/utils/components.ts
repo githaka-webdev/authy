@@ -15,3 +15,4 @@ export { default as NavigationMenu } from '../container/NavigationMenu';
 export { default as Hero } from '../page/Hero';
 export { default as Features } from '../page/Features';
 export { default as Dropdown } from '../container/Dropdown';
+export { default as Breadcrumbs } from '../ui/Breadcrumbs';
