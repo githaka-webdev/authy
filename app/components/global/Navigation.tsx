@@ -6,8 +6,10 @@ interface NavigationProps {
 
 export default function Navigation({ children }: NavigationProps) {
     return (
-        <nav className='grow h-full flex flex-row items-center justify-end'>
-            {children}
-        </nav>
+        <div className='grow h-full flex flex-row items-center justify-end gap-8'>
+            <nav className='flex flex-row items-center justify-end gap-8'>
+                {children}
+            </nav>
+        </div>
     );
 }
