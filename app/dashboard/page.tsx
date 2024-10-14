@@ -63,6 +63,10 @@ export default function Dashboard() {
                             active
                         />
                         <NavigationItem
+                            name='Analytics'
+                            link=''
+                        />
+                        <NavigationItem
                             name='Threats'
                             link=''
                         />
