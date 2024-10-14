@@ -17,6 +17,7 @@ import {
     Main,
     Navigation,
     NavigationItem,
+    UsersTable,
 } from '@/components';
 
 import { MainStyles } from '@/styles';
@@ -70,6 +71,7 @@ export default function Dashboard() {
                 </Aside>
                 <Main style={MainStyles.main_more}>
                     <Breadcrumbs name='/ Users' />
+                    <UsersTable />
                 </Main>
             </DashboardContainer>
         </div>
