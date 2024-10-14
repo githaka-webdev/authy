@@ -1,8 +1,12 @@
 import { Logo } from '@/components';
 
-export default function Brand() {
+interface BrandProps {
+    name: string;
+}
+
+export default function Brand({ name }: BrandProps) {
     <div>
         <Logo />
-        <p></p>
+        <p>{name}</p>
     </div>;
 }
