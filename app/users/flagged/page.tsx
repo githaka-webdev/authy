@@ -22,7 +22,7 @@ import {
 import { MainStyles } from '@/styles';
 
 export const metadata: Metadata = {
-    title: 'Authy - Dashboard',
+    title: 'Authy - Users',
 };
 
 export default function Dashboard() {
@@ -53,27 +53,23 @@ export default function Dashboard() {
                 <Aside>
                     <Dropdown
                         link=''
-                        name='Dashboard'
-                        icon='/icons/dashboard.svg'
+                        name='Users'
+                        icon='/icons/users.svg'
                         icon_name='Dashboard Icon'
                     >
                         <NavigationItem
-                            name='Dashboard'
-                            link='/dashboard'
+                            name='Users'
+                            link='/users'
                         />
                         <NavigationItem
-                            name='Analytics'
-                            link='/dashboard/analytics'
-                        />
-                        <NavigationItem
-                            name='Threats'
-                            link='/dashboard/threats'
+                            name='Flagged'
+                            link='/users/flagged'
                             active
                         />
                     </Dropdown>
                 </Aside>
                 <Main style={MainStyles.main_more}>
-                    <Breadcrumbs name='/ Dashboard / Threats' />
+                    <Breadcrumbs name='/ Users' />
                 </Main>
             </DashboardContainer>
         </div>
