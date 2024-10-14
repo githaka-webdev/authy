@@ -59,16 +59,16 @@ export default function Dashboard() {
                     >
                         <NavigationItem
                             name='Dashboard'
-                            link=''
+                            link='/dashboard'
                             active
                         />
                         <NavigationItem
                             name='Analytics'
-                            link=''
+                            link='/dashboard/analytics'
                         />
                         <NavigationItem
                             name='Threats'
-                            link=''
+                            link='/dashboard/threats'
                         />
                     </Dropdown>
                     <Dropdown
