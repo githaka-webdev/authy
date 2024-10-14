@@ -22,7 +22,7 @@ export default function RootLayout({
             <body
                 className={`${workSansNormal.variable} ${
                     workSansItalic.variable
-                } antialiased ${'w-dvw h-dvh'}`}
+                } antialiased ${'w-dvw h-dvh flex flex-col items-center justify-start'}`}
             >
                 {children}
             </body>
