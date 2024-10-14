@@ -66,7 +66,7 @@ export default function Navigation({ children }: NavigationProps) {
                 {menu ? (
                     <></>
                 ) : (
-                    <div className='absolute top-24 flex flex-col right-4 w-2/4 p-4 bottom-0 gap-6 border-l'>
+                    <div className='absolute top-24 flex flex-col right-4 w-2/4 p-4 bottom-0 gap-6 border-l dark:border-neutral-900'>
                         {children}
                         <Button
                             link=''
