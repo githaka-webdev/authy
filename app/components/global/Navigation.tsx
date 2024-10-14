@@ -2,7 +2,7 @@
 import { ReactNode } from 'react';
 import { Button } from '@/components';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface NavigationProps {
     children: ReactNode;
@@ -13,6 +13,18 @@ export default function Navigation({ children }: NavigationProps) {
     function toggleMenu() {
         return setMenu(!menu);
     }
+    const [darkMode, isDarkMode] = useState(false);
+    useEffect(() => {
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        isDarkMode(mediaQuery.matches);
+        const handleChange = (e: MediaQueryListEvent) => {
+            isDarkMode(e.matches);
+        };
+        mediaQuery.addEventListener('change', handleChange);
+        return () => {
+            mediaQuery.removeEventListener('change', handleChange);
+        };
+    }, []);
     return (
         <div className='grow h-full flex flex-row items-center justify-end gap-8'>
             <nav className='hidden sm:flex sm:flex-row sm:items-center sm:justify-end sm:gap-8'>
@@ -29,17 +41,25 @@ export default function Navigation({ children }: NavigationProps) {
                 >
                     {menu ? (
                         <Image
-                            src={'/icons/menu.svg'}
+                            src={
+                                darkMode
+                                    ? '/icons/menu-light.svg'
+                                    : '/icons/menu-dark.svg'
+                            }
                             alt='Menu Icon'
-                            width={20}
-                            height={20}
+                            width={24}
+                            height={24}
                         />
                     ) : (
                         <Image
-                            src={'/icons/close.svg'}
-                            alt='Close Icon'
-                            width={20}
-                            height={20}
+                            src={
+                                darkMode
+                                    ? '/icons/close-light.svg'
+                                    : '/icons/close-dark.svg'
+                            }
+                            alt='Menu Icon'
+                            width={24}
+                            height={24}
                         />
                     )}
                 </div>

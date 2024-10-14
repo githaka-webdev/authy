@@ -14,7 +14,7 @@ export default function NavigationItem({
     return (
         <Link
             className={[
-                'text-black p-4 border-transparent dark:text-white border hover:border-black dark:hover:border-white rounded-2xl',
+                'text-black p-3 border-transparent dark:text-white border hover:border-black dark:hover:border-white rounded-2xl',
                 [active ? 'font-semibold' : ''],
             ].join(' ')}
             href={link}
