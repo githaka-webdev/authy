@@ -1,3 +1,5 @@
+import UsersTable from '../page/users/UsersTable';
+
 export { default as Header } from '../layout/Header';
 export { default as Main } from '../layout/Main';
 export { default as Footer } from '../layout/Footer';
@@ -16,3 +18,4 @@ export { default as Hero } from '../page/Hero';
 export { default as Features } from '../page/Features';
 export { default as Dropdown } from '../container/Dropdown';
 export { default as Breadcrumbs } from '../ui/Breadcrumbs';
+export { default as UsersTable } from '../page/users/UsersTable';
