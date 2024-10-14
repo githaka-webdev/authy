@@ -15,3 +15,4 @@ export { default as NavigationMenuStyles } from '../container/NavigationMenu.mod
 export { default as HeroStyles } from '../page/Hero.module.css';
 export { default as FeaturesStyles } from '../page/Features.module.css';
 export { default as DropdownStyles } from '../container/Dropdown.module.css';
+export { default as UsersTableStyles } from '../page/users/UsersTable.module.css';
