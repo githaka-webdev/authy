@@ -12,16 +12,14 @@ export default function UsersTable() {
             </thead>
             <tbody>
                 <tr>
-                    <th>John</th>
-                    <th>Doe</th>
-                    <th>2000</th>
-                    <th>john@gmail.com</th>
-                    <th>f4FnH78Ki</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>2000</td>
+                    <td>john@gmail.com</td>
+                    <td>f4FnH78Ki</td>
                 </tr>
             </tbody>
-            <tfoot>
-                <p>Pagination</p>
-            </tfoot>
+            <tfoot></tfoot>
         </table>
     );
 }
