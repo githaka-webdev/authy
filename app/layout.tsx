@@ -20,7 +20,9 @@ export default function RootLayout({
     return (
         <html lang='en'>
             <body
-                className={`${workSansNormal.variable} ${workSansItalic.variable} antialiased`}
+                className={`${workSansNormal.variable} ${
+                    workSansItalic.variable
+                } antialiased ${'w-dvw h-dvh'}`}
             >
                 {children}
             </body>
