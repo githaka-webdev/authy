@@ -53,6 +53,9 @@ declare global {
     interface AsideProps {
         children: ReactNode;
     }
+    interface BreadcrumbsProps {
+        name: string;
+    }
 }
 
 export {};
