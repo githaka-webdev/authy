@@ -15,6 +15,16 @@ export default function Navigation({ children }: NavigationProps) {
                     name='Account'
                 />
             </nav>
+            <nav className='sm:hidden'>
+                <div></div>
+                <div>
+                    {children}
+                    <Button
+                        link=''
+                        name='Account'
+                    />
+                </div>
+            </nav>
         </div>
     );
 }
