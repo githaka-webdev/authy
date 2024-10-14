@@ -71,25 +71,6 @@ export default function Dashboard() {
                             link=''
                         />
                     </Dropdown>
-                    <Dropdown
-                        link=''
-                        name='Users'
-                        icon='/icons/users.svg'
-                        icon_name='Analytics Icon'
-                    >
-                        <NavigationItem
-                            name='All Users'
-                            link=''
-                        />
-                        <NavigationItem
-                            name='Admins'
-                            link=''
-                        />
-                        <NavigationItem
-                            name='Staff'
-                            link=''
-                        />
-                    </Dropdown>
                 </Aside>
                 <Main style={MainStyles.main_more}>
                     <Breadcrumbs name='/Dashboard / Analytics' />
