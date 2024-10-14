@@ -54,8 +54,8 @@ export default function Dashboard() {
                     <Dropdown
                         link=''
                         name='Dashboard'
-                        icon='/icons/analytics.svg'
-                        icon_name='Analytics Icon'
+                        icon='/icons/dashboard.svg'
+                        icon_name='Dashboard Icon'
                     >
                         <NavigationItem
                             name='Dashboard'
