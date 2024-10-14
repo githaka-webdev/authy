@@ -3,6 +3,7 @@ import {
     Aside,
     Authentication,
     Brand,
+    Breadcrumbs,
     Button,
     Container,
     DashboardContainer,
@@ -31,11 +32,6 @@ export default function Dashboard() {
                 <Brand />
                 <Navigation>
                     <NavigationItem
-                        name='Dashboard'
-                        link='/'
-                        active
-                    />
-                    <NavigationItem
                         name='Notifications'
                         link='/'
                     />
@@ -57,12 +53,12 @@ export default function Dashboard() {
                 <Aside>
                     <Dropdown
                         link=''
-                        name='Analytics'
+                        name='Dashboard'
                         icon='/icons/analytics.svg'
                         icon_name='Analytics Icon'
                     >
                         <NavigationItem
-                            name='Users'
+                            name='Dashboard'
                             link=''
                             active
                         />
@@ -92,8 +88,7 @@ export default function Dashboard() {
                     </Dropdown>
                 </Aside>
                 <Main style={MainStyles.main_more}>
-                    <></>
-                    <Footer />
+                    <Breadcrumbs name='/Dashboard' />
                 </Main>
             </DashboardContainer>
         </div>
