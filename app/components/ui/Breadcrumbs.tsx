@@ -1,7 +1,7 @@
-export default function Breadcrumbs() {
+export default function Breadcrumbs({ name }: BreadcrumbsProps) {
     return (
         <div>
-            <p></p>
+            <p>{name}</p>
         </div>
     );
 }
