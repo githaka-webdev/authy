@@ -6,9 +6,9 @@ interface BrandProps {
 
 export default function Brand({ name }: BrandProps) {
     return (
-        <div>
+        <div className='flex flex-row items-center gap-2'>
             <Logo />
-            <p>{name}</p>
+            <p className='font-bold text-2xl'>{name}</p>
         </div>
     );
 }
