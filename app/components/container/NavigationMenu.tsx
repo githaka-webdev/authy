@@ -17,14 +17,14 @@ export default function NavigationMenu({ children }: NavigationMenuProps) {
             >
                 {menu ? (
                     <Image
-                        src={'./icons/close.svg'}
+                        src={'/icons/close.svg'}
                         alt='Close Icon'
                         width={25}
                         height={25}
                     />
                 ) : (
                     <Image
-                        src={'./icons/menu.svg'}
+                        src={'/icons/menu.svg'}
                         alt='Menu Icon'
                         width={25}
                         height={25}
