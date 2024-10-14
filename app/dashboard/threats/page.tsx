@@ -64,16 +64,16 @@ export default function Dashboard() {
                         <NavigationItem
                             name='Analytics'
                             link=''
-                            active
                         />
                         <NavigationItem
                             name='Threats'
                             link=''
+                            active
                         />
                     </Dropdown>
                 </Aside>
                 <Main style={MainStyles.main_more}>
-                    <Breadcrumbs name='/Dashboard / Analytics' />
+                    <Breadcrumbs name='/Dashboard / Threats' />
                 </Main>
             </DashboardContainer>
         </div>
