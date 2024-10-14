@@ -36,7 +36,7 @@ export default function Login() {
                     />
                     <NavigationItem
                         name='Register'
-                        link='/'
+                        link='/register'
                     />
                     <NavigationItem
                         name='Reset'
