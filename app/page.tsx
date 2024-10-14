@@ -1,4 +1,4 @@
-import { Header } from '@/components';
+import { Header, NavigationItem } from '@/components';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -8,7 +8,16 @@ export const metadata: Metadata = {
 export default function Landing() {
     return (
         <>
-            <Header />
+            <Header>
+                <NavigationItem
+                    link='/'
+                    name='Landing'
+                />
+                <NavigationItem
+                    link='/'
+                    name='Changelog'
+                />
+            </Header>
         </>
     );
 }
