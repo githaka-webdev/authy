@@ -8,7 +8,7 @@ interface NavigationProps {
 export default function Navigation({ children }: NavigationProps) {
     return (
         <div className='grow h-full flex flex-row items-center justify-end gap-8'>
-            <nav className='flex flex-row items-center justify-end gap-8'>
+            <nav className='hidden sm:flex sm:flex-row sm:items-center sm:justify-end sm:gap-8'>
                 {children}
                 <Button
                     link=''
