@@ -59,21 +59,21 @@ export default function Dashboard() {
                     >
                         <NavigationItem
                             name='Dashboard'
-                            link=''
+                            link='/dashboard'
                         />
                         <NavigationItem
                             name='Analytics'
-                            link=''
+                            link='/dashboard/analytics'
                         />
                         <NavigationItem
                             name='Threats'
-                            link=''
+                            link='/dashboard/threats'
                             active
                         />
                     </Dropdown>
                 </Aside>
                 <Main style={MainStyles.main_more}>
-                    <Breadcrumbs name='/Dashboard / Threats' />
+                    <Breadcrumbs name='/ Dashboard / Threats' />
                 </Main>
             </DashboardContainer>
         </div>
